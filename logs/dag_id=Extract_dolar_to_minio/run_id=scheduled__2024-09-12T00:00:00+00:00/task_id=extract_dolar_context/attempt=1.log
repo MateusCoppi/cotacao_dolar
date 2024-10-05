@@ -1,0 +1,32 @@
+[2024-10-05T22:19:48.939+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2024-10-05T22:19:48.961+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: Extract_dolar_to_minio.extract_dolar_context scheduled__2024-09-12T00:00:00+00:00 [queued]>
+[2024-10-05T22:19:48.972+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: Extract_dolar_to_minio.extract_dolar_context scheduled__2024-09-12T00:00:00+00:00 [queued]>
+[2024-10-05T22:19:48.972+0000] {taskinstance.py:2865} INFO - Starting attempt 1 of 1
+[2024-10-05T22:19:48.989+0000] {taskinstance.py:2888} INFO - Executing <Task(PythonOperator): extract_dolar_context> on 2024-09-12 00:00:00+00:00
+[2024-10-05T22:19:48.995+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70: DeprecationWarning: This process (pid=4803) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2024-10-05T22:19:48.997+0000] {standard_task_runner.py:72} INFO - Started process 4812 to run task
+[2024-10-05T22:19:48.996+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'Extract_dolar_to_minio', 'extract_dolar_context', 'scheduled__2024-09-12T00:00:00+00:00', '--job-id', '15862', '--raw', '--subdir', 'DAGS_FOLDER/dag_extract_dolar.py', '--cfg-path', '/tmp/tmpygsakp_p']
+[2024-10-05T22:19:48.997+0000] {standard_task_runner.py:105} INFO - Job 15862: Subtask extract_dolar_context
+[2024-10-05T22:19:49.052+0000] {task_command.py:467} INFO - Running <TaskInstance: Extract_dolar_to_minio.extract_dolar_context scheduled__2024-09-12T00:00:00+00:00 [running]> on host b93c95755c8e
+[2024-10-05T22:19:49.171+0000] {taskinstance.py:3131} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='Extract_dolar_to_minio' AIRFLOW_CTX_TASK_ID='extract_dolar_context' AIRFLOW_CTX_EXECUTION_DATE='2024-09-12T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-09-12T00:00:00+00:00'
+[2024-10-05T22:19:49.172+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2024-10-05T22:19:49.759+0000] {logging_mixin.py:190} INFO - Sucesso na requisição - <Response [200]>
+[2024-10-05T22:19:49.760+0000] {logging_mixin.py:190} INFO - 
+Dados extraídos na data: 2024-10-05 22:19:49.760064
+[2024-10-05T22:19:49.760+0000] {logging_mixin.py:190} INFO - {
+    "@odata.context": "https://was-p.bcnet.bcb.gov.br/olinda/servico/PTAX/versao/v1/odata$metadata#_CotacaoDolarDia(cotacaoCompra,cotacaoVenda,dataHoraCotacao)",
+    "value": [
+        {
+            "cotacaoCompra": 5.6548,
+            "cotacaoVenda": 5.6554,
+            "dataHoraCotacao": "2024-09-12 13:09:32.111"
+        }
+    ]
+}
+[2024-10-05T22:19:49.761+0000] {python.py:240} INFO - Done. Returned value was: {'@odata.context': 'https://was-p.bcnet.bcb.gov.br/olinda/servico/PTAX/versao/v1/odata$metadata#_CotacaoDolarDia(cotacaoCompra,cotacaoVenda,dataHoraCotacao)', 'value': [{'cotacaoCompra': 5.6548, 'cotacaoVenda': 5.6554, 'dataHoraCotacao': '2024-09-12 13:09:32.111'}]}
+[2024-10-05T22:19:49.828+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2024-10-05T22:19:49.829+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=Extract_dolar_to_minio, task_id=extract_dolar_context, run_id=scheduled__2024-09-12T00:00:00+00:00, execution_date=20240912T000000, start_date=20241005T221948, end_date=20241005T221949
+[2024-10-05T22:19:49.874+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2024-10-05T22:19:49.896+0000] {local_task_job_runner.py:245} INFO - ::endgroup::
