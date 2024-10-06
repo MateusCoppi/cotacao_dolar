@@ -1,0 +1,175 @@
+[2024-10-06T12:24:23.248+0000] {processor.py:186} INFO - Started process (PID=85) to work on /opt/airflow/dags/dag_extract_dolar.py
+[2024-10-06T12:24:23.249+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_extract_dolar.py for tasks to queue
+[2024-10-06T12:24:23.253+0000] {logging_mixin.py:190} INFO - [2024-10-06T12:24:23.251+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_extract_dolar.py
+[2024-10-06T12:24:23.556+0000] {processor.py:925} INFO - DAG(s) 'Extract_dolar_to_minio' retrieved from /opt/airflow/dags/dag_extract_dolar.py
+[2024-10-06T12:24:23.579+0000] {logging_mixin.py:190} INFO - [2024-10-06T12:24:23.579+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-06T12:24:23.601+0000] {logging_mixin.py:190} INFO - [2024-10-06T12:24:23.601+0000] {dag.py:4180} INFO - Setting next_dagrun for Extract_dolar_to_minio to 2024-09-01 00:00:00+00:00, run_after=2024-09-02 00:00:00+00:00
+[2024-10-06T12:24:23.617+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_extract_dolar.py took 0.377 seconds
+[2024-10-06T12:24:53.770+0000] {processor.py:186} INFO - Started process (PID=92) to work on /opt/airflow/dags/dag_extract_dolar.py
+[2024-10-06T12:24:53.771+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_extract_dolar.py for tasks to queue
+[2024-10-06T12:24:53.773+0000] {logging_mixin.py:190} INFO - [2024-10-06T12:24:53.773+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_extract_dolar.py
+[2024-10-06T12:24:54.079+0000] {processor.py:925} INFO - DAG(s) 'Extract_dolar_to_minio' retrieved from /opt/airflow/dags/dag_extract_dolar.py
+[2024-10-06T12:24:54.099+0000] {logging_mixin.py:190} INFO - [2024-10-06T12:24:54.099+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-06T12:24:54.121+0000] {logging_mixin.py:190} INFO - [2024-10-06T12:24:54.121+0000] {dag.py:4180} INFO - Setting next_dagrun for Extract_dolar_to_minio to 2024-09-01 00:00:00+00:00, run_after=2024-09-02 00:00:00+00:00
+[2024-10-06T12:24:54.154+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_extract_dolar.py took 0.390 seconds
+[2024-10-06T12:25:24.321+0000] {processor.py:186} INFO - Started process (PID=105) to work on /opt/airflow/dags/dag_extract_dolar.py
+[2024-10-06T12:25:24.322+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_extract_dolar.py for tasks to queue
+[2024-10-06T12:25:24.324+0000] {logging_mixin.py:190} INFO - [2024-10-06T12:25:24.323+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_extract_dolar.py
+[2024-10-06T12:25:24.604+0000] {processor.py:925} INFO - DAG(s) 'Extract_dolar_to_minio' retrieved from /opt/airflow/dags/dag_extract_dolar.py
+[2024-10-06T12:25:24.625+0000] {logging_mixin.py:190} INFO - [2024-10-06T12:25:24.625+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-06T12:25:24.646+0000] {logging_mixin.py:190} INFO - [2024-10-06T12:25:24.646+0000] {dag.py:4180} INFO - Setting next_dagrun for Extract_dolar_to_minio to 2024-09-01 00:00:00+00:00, run_after=2024-09-02 00:00:00+00:00
+[2024-10-06T12:25:24.662+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_extract_dolar.py took 0.346 seconds
+[2024-10-06T12:25:54.813+0000] {processor.py:186} INFO - Started process (PID=112) to work on /opt/airflow/dags/dag_extract_dolar.py
+[2024-10-06T12:25:54.815+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_extract_dolar.py for tasks to queue
+[2024-10-06T12:25:54.817+0000] {logging_mixin.py:190} INFO - [2024-10-06T12:25:54.817+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_extract_dolar.py
+[2024-10-06T12:25:55.098+0000] {processor.py:925} INFO - DAG(s) 'Extract_dolar_to_minio' retrieved from /opt/airflow/dags/dag_extract_dolar.py
+[2024-10-06T12:25:55.119+0000] {logging_mixin.py:190} INFO - [2024-10-06T12:25:55.119+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-06T12:25:55.138+0000] {logging_mixin.py:190} INFO - [2024-10-06T12:25:55.138+0000] {dag.py:4180} INFO - Setting next_dagrun for Extract_dolar_to_minio to 2024-09-01 00:00:00+00:00, run_after=2024-09-02 00:00:00+00:00
+[2024-10-06T12:25:55.153+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_extract_dolar.py took 0.345 seconds
+[2024-10-06T12:26:25.301+0000] {processor.py:186} INFO - Started process (PID=119) to work on /opt/airflow/dags/dag_extract_dolar.py
+[2024-10-06T12:26:25.302+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_extract_dolar.py for tasks to queue
+[2024-10-06T12:26:25.304+0000] {logging_mixin.py:190} INFO - [2024-10-06T12:26:25.304+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_extract_dolar.py
+[2024-10-06T12:26:25.473+0000] {processor.py:925} INFO - DAG(s) 'Extract_dolar_to_minio' retrieved from /opt/airflow/dags/dag_extract_dolar.py
+[2024-10-06T12:26:25.499+0000] {logging_mixin.py:190} INFO - [2024-10-06T12:26:25.499+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-06T12:26:25.523+0000] {logging_mixin.py:190} INFO - [2024-10-06T12:26:25.523+0000] {dag.py:4180} INFO - Setting next_dagrun for Extract_dolar_to_minio to 2024-09-01 00:00:00+00:00, run_after=2024-09-02 00:00:00+00:00
+[2024-10-06T12:26:25.543+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_extract_dolar.py took 0.247 seconds
+[2024-10-06T12:26:55.678+0000] {processor.py:186} INFO - Started process (PID=126) to work on /opt/airflow/dags/dag_extract_dolar.py
+[2024-10-06T12:26:55.680+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_extract_dolar.py for tasks to queue
+[2024-10-06T12:26:55.682+0000] {logging_mixin.py:190} INFO - [2024-10-06T12:26:55.681+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_extract_dolar.py
+[2024-10-06T12:26:55.844+0000] {processor.py:925} INFO - DAG(s) 'Extract_dolar_to_minio' retrieved from /opt/airflow/dags/dag_extract_dolar.py
+[2024-10-06T12:26:55.867+0000] {logging_mixin.py:190} INFO - [2024-10-06T12:26:55.867+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-06T12:26:55.889+0000] {logging_mixin.py:190} INFO - [2024-10-06T12:26:55.889+0000] {dag.py:4180} INFO - Setting next_dagrun for Extract_dolar_to_minio to 2024-09-01 00:00:00+00:00, run_after=2024-09-02 00:00:00+00:00
+[2024-10-06T12:26:55.904+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_extract_dolar.py took 0.231 seconds
+[2024-10-06T12:27:26.061+0000] {processor.py:186} INFO - Started process (PID=133) to work on /opt/airflow/dags/dag_extract_dolar.py
+[2024-10-06T12:27:26.068+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_extract_dolar.py for tasks to queue
+[2024-10-06T12:27:26.071+0000] {logging_mixin.py:190} INFO - [2024-10-06T12:27:26.071+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_extract_dolar.py
+[2024-10-06T12:27:26.244+0000] {processor.py:925} INFO - DAG(s) 'Extract_dolar_to_minio' retrieved from /opt/airflow/dags/dag_extract_dolar.py
+[2024-10-06T12:27:26.270+0000] {logging_mixin.py:190} INFO - [2024-10-06T12:27:26.269+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-06T12:27:26.293+0000] {logging_mixin.py:190} INFO - [2024-10-06T12:27:26.293+0000] {dag.py:4180} INFO - Setting next_dagrun for Extract_dolar_to_minio to 2024-09-01 00:00:00+00:00, run_after=2024-09-02 00:00:00+00:00
+[2024-10-06T12:27:26.310+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_extract_dolar.py took 0.255 seconds
+[2024-10-06T12:27:56.449+0000] {processor.py:186} INFO - Started process (PID=140) to work on /opt/airflow/dags/dag_extract_dolar.py
+[2024-10-06T12:27:56.450+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_extract_dolar.py for tasks to queue
+[2024-10-06T12:27:56.453+0000] {logging_mixin.py:190} INFO - [2024-10-06T12:27:56.452+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_extract_dolar.py
+[2024-10-06T12:27:56.617+0000] {processor.py:925} INFO - DAG(s) 'Extract_dolar_to_minio' retrieved from /opt/airflow/dags/dag_extract_dolar.py
+[2024-10-06T12:27:56.640+0000] {logging_mixin.py:190} INFO - [2024-10-06T12:27:56.640+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-06T12:27:56.663+0000] {logging_mixin.py:190} INFO - [2024-10-06T12:27:56.663+0000] {dag.py:4180} INFO - Setting next_dagrun for Extract_dolar_to_minio to 2024-09-01 00:00:00+00:00, run_after=2024-09-02 00:00:00+00:00
+[2024-10-06T12:27:56.681+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_extract_dolar.py took 0.238 seconds
+[2024-10-06T12:28:26.830+0000] {processor.py:186} INFO - Started process (PID=147) to work on /opt/airflow/dags/dag_extract_dolar.py
+[2024-10-06T12:28:26.832+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_extract_dolar.py for tasks to queue
+[2024-10-06T12:28:26.835+0000] {logging_mixin.py:190} INFO - [2024-10-06T12:28:26.835+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_extract_dolar.py
+[2024-10-06T12:28:27.005+0000] {processor.py:925} INFO - DAG(s) 'Extract_dolar_to_minio' retrieved from /opt/airflow/dags/dag_extract_dolar.py
+[2024-10-06T12:28:27.030+0000] {logging_mixin.py:190} INFO - [2024-10-06T12:28:27.030+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-06T12:28:27.053+0000] {logging_mixin.py:190} INFO - [2024-10-06T12:28:27.053+0000] {dag.py:4180} INFO - Setting next_dagrun for Extract_dolar_to_minio to 2024-09-01 00:00:00+00:00, run_after=2024-09-02 00:00:00+00:00
+[2024-10-06T12:28:27.071+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_extract_dolar.py took 0.247 seconds
+[2024-10-06T12:28:57.217+0000] {processor.py:186} INFO - Started process (PID=154) to work on /opt/airflow/dags/dag_extract_dolar.py
+[2024-10-06T12:28:57.219+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_extract_dolar.py for tasks to queue
+[2024-10-06T12:28:57.223+0000] {logging_mixin.py:190} INFO - [2024-10-06T12:28:57.223+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_extract_dolar.py
+[2024-10-06T12:28:57.410+0000] {processor.py:925} INFO - DAG(s) 'Extract_dolar_to_minio' retrieved from /opt/airflow/dags/dag_extract_dolar.py
+[2024-10-06T12:28:57.436+0000] {logging_mixin.py:190} INFO - [2024-10-06T12:28:57.436+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-06T12:28:57.460+0000] {logging_mixin.py:190} INFO - [2024-10-06T12:28:57.459+0000] {dag.py:4180} INFO - Setting next_dagrun for Extract_dolar_to_minio to 2024-09-01 00:00:00+00:00, run_after=2024-09-02 00:00:00+00:00
+[2024-10-06T12:28:57.480+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_extract_dolar.py took 0.270 seconds
+[2024-10-06T12:29:27.623+0000] {processor.py:186} INFO - Started process (PID=161) to work on /opt/airflow/dags/dag_extract_dolar.py
+[2024-10-06T12:29:27.624+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_extract_dolar.py for tasks to queue
+[2024-10-06T12:29:27.626+0000] {logging_mixin.py:190} INFO - [2024-10-06T12:29:27.626+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_extract_dolar.py
+[2024-10-06T12:29:27.797+0000] {processor.py:925} INFO - DAG(s) 'Extract_dolar_to_minio' retrieved from /opt/airflow/dags/dag_extract_dolar.py
+[2024-10-06T12:29:27.821+0000] {logging_mixin.py:190} INFO - [2024-10-06T12:29:27.821+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-06T12:29:27.845+0000] {logging_mixin.py:190} INFO - [2024-10-06T12:29:27.845+0000] {dag.py:4180} INFO - Setting next_dagrun for Extract_dolar_to_minio to 2024-09-01 00:00:00+00:00, run_after=2024-09-02 00:00:00+00:00
+[2024-10-06T12:29:27.861+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_extract_dolar.py took 0.244 seconds
+[2024-10-06T12:29:58.004+0000] {processor.py:186} INFO - Started process (PID=168) to work on /opt/airflow/dags/dag_extract_dolar.py
+[2024-10-06T12:29:58.004+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_extract_dolar.py for tasks to queue
+[2024-10-06T12:29:58.007+0000] {logging_mixin.py:190} INFO - [2024-10-06T12:29:58.006+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_extract_dolar.py
+[2024-10-06T12:29:58.217+0000] {processor.py:925} INFO - DAG(s) 'Extract_dolar_to_minio' retrieved from /opt/airflow/dags/dag_extract_dolar.py
+[2024-10-06T12:29:58.246+0000] {logging_mixin.py:190} INFO - [2024-10-06T12:29:58.245+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-06T12:29:58.270+0000] {logging_mixin.py:190} INFO - [2024-10-06T12:29:58.269+0000] {dag.py:4180} INFO - Setting next_dagrun for Extract_dolar_to_minio to 2024-09-01 00:00:00+00:00, run_after=2024-09-02 00:00:00+00:00
+[2024-10-06T12:29:58.286+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_extract_dolar.py took 0.288 seconds
+[2024-10-06T12:30:28.431+0000] {processor.py:186} INFO - Started process (PID=175) to work on /opt/airflow/dags/dag_extract_dolar.py
+[2024-10-06T12:30:28.435+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_extract_dolar.py for tasks to queue
+[2024-10-06T12:30:28.437+0000] {logging_mixin.py:190} INFO - [2024-10-06T12:30:28.437+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_extract_dolar.py
+[2024-10-06T12:30:28.606+0000] {processor.py:925} INFO - DAG(s) 'Extract_dolar_to_minio' retrieved from /opt/airflow/dags/dag_extract_dolar.py
+[2024-10-06T12:30:28.631+0000] {logging_mixin.py:190} INFO - [2024-10-06T12:30:28.631+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-06T12:30:28.654+0000] {logging_mixin.py:190} INFO - [2024-10-06T12:30:28.654+0000] {dag.py:4180} INFO - Setting next_dagrun for Extract_dolar_to_minio to 2024-09-01 00:00:00+00:00, run_after=2024-09-02 00:00:00+00:00
+[2024-10-06T12:30:28.674+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_extract_dolar.py took 0.249 seconds
+[2024-10-06T12:30:58.811+0000] {processor.py:186} INFO - Started process (PID=182) to work on /opt/airflow/dags/dag_extract_dolar.py
+[2024-10-06T12:30:58.812+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_extract_dolar.py for tasks to queue
+[2024-10-06T12:30:58.814+0000] {logging_mixin.py:190} INFO - [2024-10-06T12:30:58.813+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_extract_dolar.py
+[2024-10-06T12:30:58.977+0000] {processor.py:925} INFO - DAG(s) 'Extract_dolar_to_minio' retrieved from /opt/airflow/dags/dag_extract_dolar.py
+[2024-10-06T12:30:59.001+0000] {logging_mixin.py:190} INFO - [2024-10-06T12:30:59.001+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-06T12:30:59.024+0000] {logging_mixin.py:190} INFO - [2024-10-06T12:30:59.024+0000] {dag.py:4180} INFO - Setting next_dagrun for Extract_dolar_to_minio to 2024-09-01 00:00:00+00:00, run_after=2024-09-02 00:00:00+00:00
+[2024-10-06T12:30:59.040+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_extract_dolar.py took 0.235 seconds
+[2024-10-06T12:31:29.183+0000] {processor.py:186} INFO - Started process (PID=189) to work on /opt/airflow/dags/dag_extract_dolar.py
+[2024-10-06T12:31:29.184+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_extract_dolar.py for tasks to queue
+[2024-10-06T12:31:29.187+0000] {logging_mixin.py:190} INFO - [2024-10-06T12:31:29.187+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_extract_dolar.py
+[2024-10-06T12:31:29.350+0000] {processor.py:925} INFO - DAG(s) 'Extract_dolar_to_minio' retrieved from /opt/airflow/dags/dag_extract_dolar.py
+[2024-10-06T12:31:29.383+0000] {logging_mixin.py:190} INFO - [2024-10-06T12:31:29.382+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-06T12:31:29.406+0000] {logging_mixin.py:190} INFO - [2024-10-06T12:31:29.405+0000] {dag.py:4180} INFO - Setting next_dagrun for Extract_dolar_to_minio to 2024-09-01 00:00:00+00:00, run_after=2024-09-02 00:00:00+00:00
+[2024-10-06T12:31:29.422+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_extract_dolar.py took 0.245 seconds
+[2024-10-06T12:31:59.563+0000] {processor.py:186} INFO - Started process (PID=196) to work on /opt/airflow/dags/dag_extract_dolar.py
+[2024-10-06T12:31:59.564+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_extract_dolar.py for tasks to queue
+[2024-10-06T12:31:59.567+0000] {logging_mixin.py:190} INFO - [2024-10-06T12:31:59.567+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_extract_dolar.py
+[2024-10-06T12:31:59.737+0000] {processor.py:925} INFO - DAG(s) 'Extract_dolar_to_minio' retrieved from /opt/airflow/dags/dag_extract_dolar.py
+[2024-10-06T12:31:59.762+0000] {logging_mixin.py:190} INFO - [2024-10-06T12:31:59.762+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-06T12:31:59.785+0000] {logging_mixin.py:190} INFO - [2024-10-06T12:31:59.785+0000] {dag.py:4180} INFO - Setting next_dagrun for Extract_dolar_to_minio to 2024-09-01 00:00:00+00:00, run_after=2024-09-02 00:00:00+00:00
+[2024-10-06T12:31:59.802+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_extract_dolar.py took 0.245 seconds
+[2024-10-06T12:32:29.947+0000] {processor.py:186} INFO - Started process (PID=203) to work on /opt/airflow/dags/dag_extract_dolar.py
+[2024-10-06T12:32:29.947+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_extract_dolar.py for tasks to queue
+[2024-10-06T12:32:29.951+0000] {logging_mixin.py:190} INFO - [2024-10-06T12:32:29.950+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_extract_dolar.py
+[2024-10-06T12:32:30.144+0000] {processor.py:925} INFO - DAG(s) 'Extract_dolar_to_minio' retrieved from /opt/airflow/dags/dag_extract_dolar.py
+[2024-10-06T12:32:30.168+0000] {logging_mixin.py:190} INFO - [2024-10-06T12:32:30.168+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-06T12:32:30.192+0000] {logging_mixin.py:190} INFO - [2024-10-06T12:32:30.191+0000] {dag.py:4180} INFO - Setting next_dagrun for Extract_dolar_to_minio to 2024-09-01 00:00:00+00:00, run_after=2024-09-02 00:00:00+00:00
+[2024-10-06T12:32:30.209+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_extract_dolar.py took 0.269 seconds
+[2024-10-06T12:33:00.351+0000] {processor.py:186} INFO - Started process (PID=210) to work on /opt/airflow/dags/dag_extract_dolar.py
+[2024-10-06T12:33:00.352+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_extract_dolar.py for tasks to queue
+[2024-10-06T12:33:00.354+0000] {logging_mixin.py:190} INFO - [2024-10-06T12:33:00.354+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_extract_dolar.py
+[2024-10-06T12:33:00.533+0000] {processor.py:925} INFO - DAG(s) 'Extract_dolar_to_minio' retrieved from /opt/airflow/dags/dag_extract_dolar.py
+[2024-10-06T12:33:00.558+0000] {logging_mixin.py:190} INFO - [2024-10-06T12:33:00.558+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-06T12:33:00.581+0000] {logging_mixin.py:190} INFO - [2024-10-06T12:33:00.581+0000] {dag.py:4180} INFO - Setting next_dagrun for Extract_dolar_to_minio to 2024-09-01 00:00:00+00:00, run_after=2024-09-02 00:00:00+00:00
+[2024-10-06T12:33:00.601+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_extract_dolar.py took 0.257 seconds
+[2024-10-06T12:33:30.740+0000] {processor.py:186} INFO - Started process (PID=217) to work on /opt/airflow/dags/dag_extract_dolar.py
+[2024-10-06T12:33:30.741+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_extract_dolar.py for tasks to queue
+[2024-10-06T12:33:30.744+0000] {logging_mixin.py:190} INFO - [2024-10-06T12:33:30.743+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_extract_dolar.py
+[2024-10-06T12:33:30.917+0000] {processor.py:925} INFO - DAG(s) 'Extract_dolar_to_minio' retrieved from /opt/airflow/dags/dag_extract_dolar.py
+[2024-10-06T12:33:30.943+0000] {logging_mixin.py:190} INFO - [2024-10-06T12:33:30.943+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-06T12:33:30.970+0000] {logging_mixin.py:190} INFO - [2024-10-06T12:33:30.969+0000] {dag.py:4180} INFO - Setting next_dagrun for Extract_dolar_to_minio to 2024-09-01 00:00:00+00:00, run_after=2024-09-02 00:00:00+00:00
+[2024-10-06T12:33:30.987+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_extract_dolar.py took 0.253 seconds
+[2024-10-06T12:34:01.131+0000] {processor.py:186} INFO - Started process (PID=224) to work on /opt/airflow/dags/dag_extract_dolar.py
+[2024-10-06T12:34:01.132+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_extract_dolar.py for tasks to queue
+[2024-10-06T12:34:01.134+0000] {logging_mixin.py:190} INFO - [2024-10-06T12:34:01.134+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_extract_dolar.py
+[2024-10-06T12:34:01.310+0000] {processor.py:925} INFO - DAG(s) 'Extract_dolar_to_minio' retrieved from /opt/airflow/dags/dag_extract_dolar.py
+[2024-10-06T12:34:01.339+0000] {logging_mixin.py:190} INFO - [2024-10-06T12:34:01.338+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-06T12:34:01.362+0000] {logging_mixin.py:190} INFO - [2024-10-06T12:34:01.362+0000] {dag.py:4180} INFO - Setting next_dagrun for Extract_dolar_to_minio to 2024-09-01 00:00:00+00:00, run_after=2024-09-02 00:00:00+00:00
+[2024-10-06T12:34:01.377+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_extract_dolar.py took 0.253 seconds
+[2024-10-06T12:34:31.516+0000] {processor.py:186} INFO - Started process (PID=231) to work on /opt/airflow/dags/dag_extract_dolar.py
+[2024-10-06T12:34:31.517+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_extract_dolar.py for tasks to queue
+[2024-10-06T12:34:31.519+0000] {logging_mixin.py:190} INFO - [2024-10-06T12:34:31.519+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_extract_dolar.py
+[2024-10-06T12:34:31.684+0000] {processor.py:925} INFO - DAG(s) 'Extract_dolar_to_minio' retrieved from /opt/airflow/dags/dag_extract_dolar.py
+[2024-10-06T12:34:31.708+0000] {logging_mixin.py:190} INFO - [2024-10-06T12:34:31.708+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-06T12:34:31.731+0000] {logging_mixin.py:190} INFO - [2024-10-06T12:34:31.730+0000] {dag.py:4180} INFO - Setting next_dagrun for Extract_dolar_to_minio to 2024-09-01 00:00:00+00:00, run_after=2024-09-02 00:00:00+00:00
+[2024-10-06T12:34:31.747+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_extract_dolar.py took 0.237 seconds
+[2024-10-06T12:35:01.884+0000] {processor.py:186} INFO - Started process (PID=238) to work on /opt/airflow/dags/dag_extract_dolar.py
+[2024-10-06T12:35:01.886+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_extract_dolar.py for tasks to queue
+[2024-10-06T12:35:01.888+0000] {logging_mixin.py:190} INFO - [2024-10-06T12:35:01.887+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_extract_dolar.py
+[2024-10-06T12:35:02.049+0000] {processor.py:925} INFO - DAG(s) 'Extract_dolar_to_minio' retrieved from /opt/airflow/dags/dag_extract_dolar.py
+[2024-10-06T12:35:02.073+0000] {logging_mixin.py:190} INFO - [2024-10-06T12:35:02.073+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-06T12:35:02.096+0000] {logging_mixin.py:190} INFO - [2024-10-06T12:35:02.095+0000] {dag.py:4180} INFO - Setting next_dagrun for Extract_dolar_to_minio to 2024-09-01 00:00:00+00:00, run_after=2024-09-02 00:00:00+00:00
+[2024-10-06T12:35:02.112+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_extract_dolar.py took 0.234 seconds
+[2024-10-06T12:35:32.251+0000] {processor.py:186} INFO - Started process (PID=245) to work on /opt/airflow/dags/dag_extract_dolar.py
+[2024-10-06T12:35:32.252+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_extract_dolar.py for tasks to queue
+[2024-10-06T12:35:32.255+0000] {logging_mixin.py:190} INFO - [2024-10-06T12:35:32.254+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_extract_dolar.py
+[2024-10-06T12:35:32.457+0000] {processor.py:925} INFO - DAG(s) 'Extract_dolar_to_minio' retrieved from /opt/airflow/dags/dag_extract_dolar.py
+[2024-10-06T12:35:32.486+0000] {logging_mixin.py:190} INFO - [2024-10-06T12:35:32.486+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-06T12:35:32.513+0000] {logging_mixin.py:190} INFO - [2024-10-06T12:35:32.513+0000] {dag.py:4180} INFO - Setting next_dagrun for Extract_dolar_to_minio to 2024-09-01 00:00:00+00:00, run_after=2024-09-02 00:00:00+00:00
+[2024-10-06T12:35:32.530+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_extract_dolar.py took 0.285 seconds
+[2024-10-06T12:36:02.672+0000] {processor.py:186} INFO - Started process (PID=252) to work on /opt/airflow/dags/dag_extract_dolar.py
+[2024-10-06T12:36:02.674+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_extract_dolar.py for tasks to queue
+[2024-10-06T12:36:02.678+0000] {logging_mixin.py:190} INFO - [2024-10-06T12:36:02.677+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_extract_dolar.py
+[2024-10-06T12:36:02.861+0000] {processor.py:925} INFO - DAG(s) 'Extract_dolar_to_minio' retrieved from /opt/airflow/dags/dag_extract_dolar.py
+[2024-10-06T12:36:02.888+0000] {logging_mixin.py:190} INFO - [2024-10-06T12:36:02.888+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-06T12:36:02.913+0000] {logging_mixin.py:190} INFO - [2024-10-06T12:36:02.913+0000] {dag.py:4180} INFO - Setting next_dagrun for Extract_dolar_to_minio to 2024-09-01 00:00:00+00:00, run_after=2024-09-02 00:00:00+00:00
+[2024-10-06T12:36:02.935+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_extract_dolar.py took 0.270 seconds
+[2024-10-06T12:36:33.083+0000] {processor.py:186} INFO - Started process (PID=259) to work on /opt/airflow/dags/dag_extract_dolar.py
+[2024-10-06T12:36:33.084+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_extract_dolar.py for tasks to queue
+[2024-10-06T12:36:33.087+0000] {logging_mixin.py:190} INFO - [2024-10-06T12:36:33.087+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_extract_dolar.py
+[2024-10-06T12:36:33.257+0000] {processor.py:925} INFO - DAG(s) 'Extract_dolar_to_minio' retrieved from /opt/airflow/dags/dag_extract_dolar.py
+[2024-10-06T12:36:33.281+0000] {logging_mixin.py:190} INFO - [2024-10-06T12:36:33.281+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-06T12:36:33.304+0000] {logging_mixin.py:190} INFO - [2024-10-06T12:36:33.304+0000] {dag.py:4180} INFO - Setting next_dagrun for Extract_dolar_to_minio to 2024-09-01 00:00:00+00:00, run_after=2024-09-02 00:00:00+00:00
+[2024-10-06T12:36:33.320+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_extract_dolar.py took 0.243 seconds
