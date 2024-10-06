@@ -10,6 +10,7 @@ Antes de começar, certifique-se de ter os seguintes softwares instalados em sua
 - [Docker Compose](https://docs.docker.com/compose/install/) - Para orquestrar os containers.
 
 > **Nota**: O passo a passo para instalação e configuração de cada um desses softwares pode ser encontrado nas respectivas documentações.
+> **Obs**: Arquivos padrões de configuração do airflow, docker e criação da Venv que não foram modificados estão no gitignore visto que na instalação das aplicações esses arquivos são instalados de forma padrão.
 
 ## Configuração do Ambiente
 
