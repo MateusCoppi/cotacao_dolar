@@ -1,6 +1,6 @@
-# Projeto de ETL com Docker, Airflow e MinIO
+# Projeto de ELT com Docker, Airflow e MinIO
 
-Este projeto utiliza **Docker**, **Apache Airflow** e **MinIO**, todos rodando em containers Docker. Siga as instruções abaixo para configurar o ambiente corretamente.
+Este projeto utiliza **Docker**, **Apache Airflow** e **MinIO**, todos rodando em containers Docker.
 
 ## Pré-requisitos
 
