@@ -7,8 +7,10 @@ import os
 import sys
 
 sys.path.append(os.path.abspath('/opt/airflow/scripts')) # path dos scripts
+sys.path.append(os.path.abspath('/opt/airflow/scripts/transformacoes/cotacao_dolar')) 
 from minio_connection import MinionConnection
 from extracao_cotacao_dolar import extracao_cotacao_dolar_bacen
+import cotacao_dolar_silver
 
 
 # importa os dados json para o bucket_bronze
@@ -22,7 +24,7 @@ def to_bronze(arquivo, data_interval_start, **kwargs):
 
 with DAG(
     dag_id="Extract_dolar_to_minio",
-    start_date=pendulum.datetime(2024, 9, 1, tz="UTC"),
+    start_date=pendulum.datetime(2024, 10, 20, tz="UTC"),
     schedule="@daily",
     catchup=True
 ) as dag:

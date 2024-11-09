@@ -45,7 +45,6 @@ class MinionConnection:
         except S3Error as e:
             print(f"Erro ao fazer upload do arquivo: {e}")
 
-
     def get_json_objects_from_bucket(self, bucket: str):
         client = self.conexao_minio()
         files = client.list_objects(bucket, recursive=True)
