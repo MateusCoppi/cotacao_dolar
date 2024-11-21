@@ -1,5 +1,6 @@
 from airflow.operators.python import PythonOperator
 from airflow.operators.empty import EmptyOperator
+from airflow.operators.trigger_dagrun import TriggerDagRunOperator
 import pendulum
 from airflow import DAG
 from time import sleep
@@ -16,18 +17,18 @@ import cotacao_dolar_silver
 # importa os dados json para o bucket_bronze
 def to_bronze(arquivo, data_interval_start, **kwargs):
     data = pendulum.parse(data_interval_start).strftime("%m-%d-%Y")
-    minio_connect = MinionConnection(access_key="myminioadmin", secret_key="minio-secret-key-change-me", host_name="minio:9000")
+    minio_connect = MinionConnection(access_key="mateus1234", secret_key="cofre1234", host_name="minio:9000")
     minio_connect.lista_buckets()
     minio_connect.import_json_to_bucket(object_name=f"cotacao{data}", bucket_name="dolar-bucket-bronze", file=arquivo)
     sleep(5)
 
 
 with DAG(
-    dag_id="Extract_dolar_to_minio",
+    dag_id="cotacao_dolar_to_minio",
     start_date=pendulum.datetime(2024, 10, 20, tz="UTC"),
     schedule="@daily",
     catchup=True
-) as dag:
+) as dag_extracao:
     
     start_extract = EmptyOperator(task_id="start_extract")
 
@@ -46,6 +47,16 @@ with DAG(
     )
 
     end_load = EmptyOperator(task_id='end_load')
+
+    # start_transformation = EmptyOperator(task_id='start_transformacao')
+    
+    # trigger_transformacao_silver = TriggerDagRunOperator(
+    #     task_id='trigger_silver',
+    #     trigger_dag_id='transformation_dag',
+    #     dag=dag_extracao
+    # )
+
+    # end_transformation = EmptyOperator(task_id='end_transformation')
 
 
     start_extract >> extract_operator >> end_extract >> load_operator >> end_load

@@ -2,6 +2,8 @@ from minio import Minio
 from minio.error import S3Error
 import io
 import json
+from pyspark.sql import SparkSession
+import os
 
 class MinionConnection:
 
@@ -52,10 +54,40 @@ class MinionConnection:
         try:            
             for obj in files:
                 response = self.conexao_minio().get_object(bucket, obj.object_name)
-                file_data = response.read().decode('utf-8')
-                json_data.append(json.loads(file_data))
-        finally:
-            response.close()
-            response.release_conn()       
+                try:
+                    file_data = response.read().decode('utf-8')
+                    json_data.append(json.loads(file_data))
+                finally:
+                    response.close()
+                    response.release_conn()
+        except S3Error as e:
+            print(f"Erro ao obter os arquivos {e}") 
         
         return json_data
+    
+    # def get_csv_objects(self, bucket: str, object: str):
+    #     os.environ["JAVA_HOME"] = "/usr/lib/jvm/java-1.17.0-openjdk-amd64"
+    #     os.environ["SPARK_HOME"] = "/opt/spark/spark-3.5.3-bin-hadoop3"
+
+    #     spark = SparkSession \
+    #         .builder \
+    #         .appName("csv_minio") \
+    #         .master("local[4]") \
+    #         .config("spark.driver.memory", "4g") \
+    #         .config("spark.executor.memory", "4g") \
+    #         .config("fs.s3a.access.key", "mateus1234") \
+    #         .config("fs.s3a.secret.key", "cofre1234") \
+    #         .config("fs.s3a.endpoint", "http://localhost:9000") \
+    #         .config("fs.s3a.path.style.access", "true") \
+    #         .config("fs.s3a.connection.ssl.enabled", "false") \
+    #         .config('spark.jars.packages', 'org.apache.hadoop:hadoop-aws:3.3.4,com.amazonaws:aws-java-sdk-bundle:1.12.630') \
+    #         .getOrCreate()
+        
+    #     s3_path = f"s3a://{bucket}/{object}"        
+    #     try:
+    #         df = spark.read.csv(s3_path, header=True, inferSchema=True)
+    #         df.show(5)
+    #         return df
+    #     except Exception as e:
+    #         print("Erro ao ler o CSV do MinIO:", e)
+    #     raise

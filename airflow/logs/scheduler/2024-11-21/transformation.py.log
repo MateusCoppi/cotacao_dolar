@@ -1,0 +1,364 @@
+[2024-11-21T22:46:30.664+0000] {processor.py:186} INFO - Started process (PID=133) to work on /opt/airflow/dags/transformation.py
+[2024-11-21T22:46:30.665+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/transformation.py for tasks to queue
+[2024-11-21T22:46:30.667+0000] {logging_mixin.py:190} INFO - [2024-11-21T22:46:30.667+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/transformation.py
+[2024-11-21T22:46:31.123+0000] {processor.py:925} INFO - DAG(s) 'dolar_data_silver' retrieved from /opt/airflow/dags/transformation.py
+[2024-11-21T22:46:31.142+0000] {logging_mixin.py:190} INFO - [2024-11-21T22:46:31.142+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-21T22:46:31.165+0000] {logging_mixin.py:190} INFO - [2024-11-21T22:46:31.165+0000] {dag.py:4180} INFO - Setting next_dagrun for dolar_data_silver to 2024-11-21 00:00:00+00:00, run_after=2024-11-22 00:00:00+00:00
+[2024-11-21T22:46:31.181+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/transformation.py took 0.523 seconds
+[2024-11-21T22:47:01.348+0000] {processor.py:186} INFO - Started process (PID=141) to work on /opt/airflow/dags/transformation.py
+[2024-11-21T22:47:01.350+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/transformation.py for tasks to queue
+[2024-11-21T22:47:01.353+0000] {logging_mixin.py:190} INFO - [2024-11-21T22:47:01.352+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/transformation.py
+[2024-11-21T22:47:02.024+0000] {processor.py:925} INFO - DAG(s) 'dolar_data_silver' retrieved from /opt/airflow/dags/transformation.py
+[2024-11-21T22:47:02.060+0000] {logging_mixin.py:190} INFO - [2024-11-21T22:47:02.059+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-21T22:47:02.096+0000] {logging_mixin.py:190} INFO - [2024-11-21T22:47:02.093+0000] {dag.py:4180} INFO - Setting next_dagrun for dolar_data_silver to 2024-11-21 00:00:00+00:00, run_after=2024-11-22 00:00:00+00:00
+[2024-11-21T22:47:02.131+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/transformation.py took 0.799 seconds
+[2024-11-21T22:47:32.316+0000] {processor.py:186} INFO - Started process (PID=149) to work on /opt/airflow/dags/transformation.py
+[2024-11-21T22:47:32.317+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/transformation.py for tasks to queue
+[2024-11-21T22:47:32.321+0000] {logging_mixin.py:190} INFO - [2024-11-21T22:47:32.321+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/transformation.py
+[2024-11-21T22:47:32.879+0000] {processor.py:925} INFO - DAG(s) 'dolar_data_silver' retrieved from /opt/airflow/dags/transformation.py
+[2024-11-21T22:47:32.895+0000] {logging_mixin.py:190} INFO - [2024-11-21T22:47:32.895+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-21T22:47:32.918+0000] {logging_mixin.py:190} INFO - [2024-11-21T22:47:32.918+0000] {dag.py:4180} INFO - Setting next_dagrun for dolar_data_silver to 2024-11-21 00:00:00+00:00, run_after=2024-11-22 00:00:00+00:00
+[2024-11-21T22:47:32.934+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/transformation.py took 0.625 seconds
+[2024-11-21T22:48:03.091+0000] {processor.py:186} INFO - Started process (PID=157) to work on /opt/airflow/dags/transformation.py
+[2024-11-21T22:48:03.094+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/transformation.py for tasks to queue
+[2024-11-21T22:48:03.098+0000] {logging_mixin.py:190} INFO - [2024-11-21T22:48:03.097+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/transformation.py
+[2024-11-21T22:48:03.624+0000] {processor.py:925} INFO - DAG(s) 'dolar_data_silver' retrieved from /opt/airflow/dags/transformation.py
+[2024-11-21T22:48:03.641+0000] {logging_mixin.py:190} INFO - [2024-11-21T22:48:03.641+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-21T22:48:03.664+0000] {logging_mixin.py:190} INFO - [2024-11-21T22:48:03.664+0000] {dag.py:4180} INFO - Setting next_dagrun for dolar_data_silver to 2024-11-21 00:00:00+00:00, run_after=2024-11-22 00:00:00+00:00
+[2024-11-21T22:48:03.686+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/transformation.py took 0.604 seconds
+[2024-11-21T22:48:33.877+0000] {processor.py:186} INFO - Started process (PID=165) to work on /opt/airflow/dags/transformation.py
+[2024-11-21T22:48:33.878+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/transformation.py for tasks to queue
+[2024-11-21T22:48:33.881+0000] {logging_mixin.py:190} INFO - [2024-11-21T22:48:33.880+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/transformation.py
+[2024-11-21T22:48:34.290+0000] {processor.py:925} INFO - DAG(s) 'dolar_data_silver' retrieved from /opt/airflow/dags/transformation.py
+[2024-11-21T22:48:34.306+0000] {logging_mixin.py:190} INFO - [2024-11-21T22:48:34.306+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-21T22:48:34.327+0000] {logging_mixin.py:190} INFO - [2024-11-21T22:48:34.327+0000] {dag.py:4180} INFO - Setting next_dagrun for dolar_data_silver to 2024-11-21 00:00:00+00:00, run_after=2024-11-22 00:00:00+00:00
+[2024-11-21T22:48:34.343+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/transformation.py took 0.472 seconds
+[2024-11-21T22:49:04.526+0000] {processor.py:186} INFO - Started process (PID=173) to work on /opt/airflow/dags/transformation.py
+[2024-11-21T22:49:04.527+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/transformation.py for tasks to queue
+[2024-11-21T22:49:04.529+0000] {logging_mixin.py:190} INFO - [2024-11-21T22:49:04.529+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/transformation.py
+[2024-11-21T22:49:04.979+0000] {processor.py:925} INFO - DAG(s) 'dolar_data_silver' retrieved from /opt/airflow/dags/transformation.py
+[2024-11-21T22:49:04.996+0000] {logging_mixin.py:190} INFO - [2024-11-21T22:49:04.996+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-21T22:49:05.020+0000] {logging_mixin.py:190} INFO - [2024-11-21T22:49:05.020+0000] {dag.py:4180} INFO - Setting next_dagrun for dolar_data_silver to 2024-11-21 00:00:00+00:00, run_after=2024-11-22 00:00:00+00:00
+[2024-11-21T22:49:05.037+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/transformation.py took 0.517 seconds
+[2024-11-21T22:49:35.197+0000] {processor.py:186} INFO - Started process (PID=181) to work on /opt/airflow/dags/transformation.py
+[2024-11-21T22:49:35.199+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/transformation.py for tasks to queue
+[2024-11-21T22:49:35.201+0000] {logging_mixin.py:190} INFO - [2024-11-21T22:49:35.201+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/transformation.py
+[2024-11-21T22:49:35.701+0000] {processor.py:925} INFO - DAG(s) 'dolar_data_silver' retrieved from /opt/airflow/dags/transformation.py
+[2024-11-21T22:49:35.718+0000] {logging_mixin.py:190} INFO - [2024-11-21T22:49:35.718+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-21T22:49:35.743+0000] {logging_mixin.py:190} INFO - [2024-11-21T22:49:35.743+0000] {dag.py:4180} INFO - Setting next_dagrun for dolar_data_silver to 2024-11-21 00:00:00+00:00, run_after=2024-11-22 00:00:00+00:00
+[2024-11-21T22:49:35.760+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/transformation.py took 0.569 seconds
+[2024-11-21T22:50:05.918+0000] {processor.py:186} INFO - Started process (PID=189) to work on /opt/airflow/dags/transformation.py
+[2024-11-21T22:50:05.921+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/transformation.py for tasks to queue
+[2024-11-21T22:50:05.923+0000] {logging_mixin.py:190} INFO - [2024-11-21T22:50:05.923+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/transformation.py
+[2024-11-21T22:50:06.379+0000] {processor.py:925} INFO - DAG(s) 'dolar_data_silver' retrieved from /opt/airflow/dags/transformation.py
+[2024-11-21T22:50:06.397+0000] {logging_mixin.py:190} INFO - [2024-11-21T22:50:06.397+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-21T22:50:06.422+0000] {logging_mixin.py:190} INFO - [2024-11-21T22:50:06.422+0000] {dag.py:4180} INFO - Setting next_dagrun for dolar_data_silver to 2024-11-21 00:00:00+00:00, run_after=2024-11-22 00:00:00+00:00
+[2024-11-21T22:50:06.440+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/transformation.py took 0.528 seconds
+[2024-11-21T22:50:36.629+0000] {processor.py:186} INFO - Started process (PID=197) to work on /opt/airflow/dags/transformation.py
+[2024-11-21T22:50:36.630+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/transformation.py for tasks to queue
+[2024-11-21T22:50:36.634+0000] {logging_mixin.py:190} INFO - [2024-11-21T22:50:36.634+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/transformation.py
+[2024-11-21T22:50:37.115+0000] {processor.py:925} INFO - DAG(s) 'dolar_data_silver' retrieved from /opt/airflow/dags/transformation.py
+[2024-11-21T22:50:37.131+0000] {logging_mixin.py:190} INFO - [2024-11-21T22:50:37.131+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-21T22:50:37.153+0000] {logging_mixin.py:190} INFO - [2024-11-21T22:50:37.153+0000] {dag.py:4180} INFO - Setting next_dagrun for dolar_data_silver to 2024-11-21 00:00:00+00:00, run_after=2024-11-22 00:00:00+00:00
+[2024-11-21T22:50:37.169+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/transformation.py took 0.551 seconds
+[2024-11-21T22:51:07.311+0000] {processor.py:186} INFO - Started process (PID=205) to work on /opt/airflow/dags/transformation.py
+[2024-11-21T22:51:07.312+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/transformation.py for tasks to queue
+[2024-11-21T22:51:07.315+0000] {logging_mixin.py:190} INFO - [2024-11-21T22:51:07.315+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/transformation.py
+[2024-11-21T22:51:07.728+0000] {processor.py:925} INFO - DAG(s) 'dolar_data_silver' retrieved from /opt/airflow/dags/transformation.py
+[2024-11-21T22:51:07.744+0000] {logging_mixin.py:190} INFO - [2024-11-21T22:51:07.744+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-21T22:51:07.766+0000] {logging_mixin.py:190} INFO - [2024-11-21T22:51:07.766+0000] {dag.py:4180} INFO - Setting next_dagrun for dolar_data_silver to 2024-11-21 00:00:00+00:00, run_after=2024-11-22 00:00:00+00:00
+[2024-11-21T22:51:07.785+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/transformation.py took 0.481 seconds
+[2024-11-21T22:51:37.991+0000] {processor.py:186} INFO - Started process (PID=213) to work on /opt/airflow/dags/transformation.py
+[2024-11-21T22:51:37.992+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/transformation.py for tasks to queue
+[2024-11-21T22:51:37.994+0000] {logging_mixin.py:190} INFO - [2024-11-21T22:51:37.994+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/transformation.py
+[2024-11-21T22:51:38.461+0000] {processor.py:925} INFO - DAG(s) 'dolar_data_silver' retrieved from /opt/airflow/dags/transformation.py
+[2024-11-21T22:51:38.479+0000] {logging_mixin.py:190} INFO - [2024-11-21T22:51:38.478+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-21T22:51:38.506+0000] {logging_mixin.py:190} INFO - [2024-11-21T22:51:38.506+0000] {dag.py:4180} INFO - Setting next_dagrun for dolar_data_silver to 2024-11-21 00:00:00+00:00, run_after=2024-11-22 00:00:00+00:00
+[2024-11-21T22:51:38.524+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/transformation.py took 0.539 seconds
+[2024-11-21T22:52:08.675+0000] {processor.py:186} INFO - Started process (PID=221) to work on /opt/airflow/dags/transformation.py
+[2024-11-21T22:52:08.676+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/transformation.py for tasks to queue
+[2024-11-21T22:52:08.679+0000] {logging_mixin.py:190} INFO - [2024-11-21T22:52:08.679+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/transformation.py
+[2024-11-21T22:52:09.139+0000] {processor.py:925} INFO - DAG(s) 'dolar_data_silver' retrieved from /opt/airflow/dags/transformation.py
+[2024-11-21T22:52:09.157+0000] {logging_mixin.py:190} INFO - [2024-11-21T22:52:09.156+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-21T22:52:09.180+0000] {logging_mixin.py:190} INFO - [2024-11-21T22:52:09.180+0000] {dag.py:4180} INFO - Setting next_dagrun for dolar_data_silver to 2024-11-21 00:00:00+00:00, run_after=2024-11-22 00:00:00+00:00
+[2024-11-21T22:52:09.196+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/transformation.py took 0.527 seconds
+[2024-11-21T22:52:39.376+0000] {processor.py:186} INFO - Started process (PID=229) to work on /opt/airflow/dags/transformation.py
+[2024-11-21T22:52:39.377+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/transformation.py for tasks to queue
+[2024-11-21T22:52:39.379+0000] {logging_mixin.py:190} INFO - [2024-11-21T22:52:39.379+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/transformation.py
+[2024-11-21T22:52:39.770+0000] {processor.py:925} INFO - DAG(s) 'dolar_data_silver' retrieved from /opt/airflow/dags/transformation.py
+[2024-11-21T22:52:39.787+0000] {logging_mixin.py:190} INFO - [2024-11-21T22:52:39.787+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-21T22:52:39.808+0000] {logging_mixin.py:190} INFO - [2024-11-21T22:52:39.808+0000] {dag.py:4180} INFO - Setting next_dagrun for dolar_data_silver to 2024-11-21 00:00:00+00:00, run_after=2024-11-22 00:00:00+00:00
+[2024-11-21T22:52:39.824+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/transformation.py took 0.454 seconds
+[2024-11-21T22:53:09.993+0000] {processor.py:186} INFO - Started process (PID=237) to work on /opt/airflow/dags/transformation.py
+[2024-11-21T22:53:09.994+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/transformation.py for tasks to queue
+[2024-11-21T22:53:09.996+0000] {logging_mixin.py:190} INFO - [2024-11-21T22:53:09.996+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/transformation.py
+[2024-11-21T22:53:10.400+0000] {processor.py:925} INFO - DAG(s) 'dolar_data_silver' retrieved from /opt/airflow/dags/transformation.py
+[2024-11-21T22:53:10.417+0000] {logging_mixin.py:190} INFO - [2024-11-21T22:53:10.417+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-21T22:53:10.440+0000] {logging_mixin.py:190} INFO - [2024-11-21T22:53:10.439+0000] {dag.py:4180} INFO - Setting next_dagrun for dolar_data_silver to 2024-11-21 00:00:00+00:00, run_after=2024-11-22 00:00:00+00:00
+[2024-11-21T22:53:10.457+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/transformation.py took 0.470 seconds
+[2024-11-21T22:53:40.622+0000] {processor.py:186} INFO - Started process (PID=246) to work on /opt/airflow/dags/transformation.py
+[2024-11-21T22:53:40.623+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/transformation.py for tasks to queue
+[2024-11-21T22:53:40.625+0000] {logging_mixin.py:190} INFO - [2024-11-21T22:53:40.625+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/transformation.py
+[2024-11-21T22:53:41.023+0000] {processor.py:925} INFO - DAG(s) 'dolar_data_silver' retrieved from /opt/airflow/dags/transformation.py
+[2024-11-21T22:53:41.039+0000] {logging_mixin.py:190} INFO - [2024-11-21T22:53:41.039+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-21T22:53:41.061+0000] {logging_mixin.py:190} INFO - [2024-11-21T22:53:41.061+0000] {dag.py:4180} INFO - Setting next_dagrun for dolar_data_silver to 2024-11-21 00:00:00+00:00, run_after=2024-11-22 00:00:00+00:00
+[2024-11-21T22:53:41.078+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/transformation.py took 0.462 seconds
+[2024-11-21T22:54:11.253+0000] {processor.py:186} INFO - Started process (PID=254) to work on /opt/airflow/dags/transformation.py
+[2024-11-21T22:54:11.254+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/transformation.py for tasks to queue
+[2024-11-21T22:54:11.257+0000] {logging_mixin.py:190} INFO - [2024-11-21T22:54:11.256+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/transformation.py
+[2024-11-21T22:54:11.651+0000] {processor.py:925} INFO - DAG(s) 'dolar_data_silver' retrieved from /opt/airflow/dags/transformation.py
+[2024-11-21T22:54:11.668+0000] {logging_mixin.py:190} INFO - [2024-11-21T22:54:11.668+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-21T22:54:11.691+0000] {logging_mixin.py:190} INFO - [2024-11-21T22:54:11.691+0000] {dag.py:4180} INFO - Setting next_dagrun for dolar_data_silver to 2024-11-21 00:00:00+00:00, run_after=2024-11-22 00:00:00+00:00
+[2024-11-21T22:54:11.707+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/transformation.py took 0.460 seconds
+[2024-11-21T22:54:41.886+0000] {processor.py:186} INFO - Started process (PID=262) to work on /opt/airflow/dags/transformation.py
+[2024-11-21T22:54:41.887+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/transformation.py for tasks to queue
+[2024-11-21T22:54:41.889+0000] {logging_mixin.py:190} INFO - [2024-11-21T22:54:41.889+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/transformation.py
+[2024-11-21T22:54:42.281+0000] {processor.py:925} INFO - DAG(s) 'dolar_data_silver' retrieved from /opt/airflow/dags/transformation.py
+[2024-11-21T22:54:42.298+0000] {logging_mixin.py:190} INFO - [2024-11-21T22:54:42.298+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-21T22:54:42.319+0000] {logging_mixin.py:190} INFO - [2024-11-21T22:54:42.319+0000] {dag.py:4180} INFO - Setting next_dagrun for dolar_data_silver to 2024-11-21 00:00:00+00:00, run_after=2024-11-22 00:00:00+00:00
+[2024-11-21T22:54:42.336+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/transformation.py took 0.456 seconds
+[2024-11-21T22:55:12.532+0000] {processor.py:186} INFO - Started process (PID=270) to work on /opt/airflow/dags/transformation.py
+[2024-11-21T22:55:12.533+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/transformation.py for tasks to queue
+[2024-11-21T22:55:12.536+0000] {logging_mixin.py:190} INFO - [2024-11-21T22:55:12.536+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/transformation.py
+[2024-11-21T22:55:12.934+0000] {processor.py:925} INFO - DAG(s) 'dolar_data_silver' retrieved from /opt/airflow/dags/transformation.py
+[2024-11-21T22:55:12.951+0000] {logging_mixin.py:190} INFO - [2024-11-21T22:55:12.951+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-21T22:55:12.972+0000] {logging_mixin.py:190} INFO - [2024-11-21T22:55:12.972+0000] {dag.py:4180} INFO - Setting next_dagrun for dolar_data_silver to 2024-11-21 00:00:00+00:00, run_after=2024-11-22 00:00:00+00:00
+[2024-11-21T22:55:12.988+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/transformation.py took 0.464 seconds
+[2024-11-21T22:55:43.156+0000] {processor.py:186} INFO - Started process (PID=278) to work on /opt/airflow/dags/transformation.py
+[2024-11-21T22:55:43.157+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/transformation.py for tasks to queue
+[2024-11-21T22:55:43.160+0000] {logging_mixin.py:190} INFO - [2024-11-21T22:55:43.160+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/transformation.py
+[2024-11-21T22:55:43.572+0000] {processor.py:925} INFO - DAG(s) 'dolar_data_silver' retrieved from /opt/airflow/dags/transformation.py
+[2024-11-21T22:55:43.589+0000] {logging_mixin.py:190} INFO - [2024-11-21T22:55:43.589+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-21T22:55:43.613+0000] {logging_mixin.py:190} INFO - [2024-11-21T22:55:43.612+0000] {dag.py:4180} INFO - Setting next_dagrun for dolar_data_silver to 2024-11-21 00:00:00+00:00, run_after=2024-11-22 00:00:00+00:00
+[2024-11-21T22:55:43.751+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/transformation.py took 0.601 seconds
+[2024-11-21T22:56:15.018+0000] {processor.py:186} INFO - Started process (PID=286) to work on /opt/airflow/dags/transformation.py
+[2024-11-21T22:56:15.037+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/transformation.py for tasks to queue
+[2024-11-21T22:56:15.226+0000] {logging_mixin.py:190} INFO - [2024-11-21T22:56:15.226+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/transformation.py
+[2024-11-21T22:56:17.819+0000] {processor.py:925} INFO - DAG(s) 'dolar_data_silver' retrieved from /opt/airflow/dags/transformation.py
+[2024-11-21T22:56:17.835+0000] {logging_mixin.py:190} INFO - [2024-11-21T22:56:17.835+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-21T22:56:17.856+0000] {logging_mixin.py:190} INFO - [2024-11-21T22:56:17.856+0000] {dag.py:4180} INFO - Setting next_dagrun for dolar_data_silver to 2024-11-21 00:00:00+00:00, run_after=2024-11-22 00:00:00+00:00
+[2024-11-21T22:56:17.872+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/transformation.py took 2.870 seconds
+[2024-11-21T22:56:48.052+0000] {processor.py:186} INFO - Started process (PID=300) to work on /opt/airflow/dags/transformation.py
+[2024-11-21T22:56:48.053+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/transformation.py for tasks to queue
+[2024-11-21T22:56:48.055+0000] {logging_mixin.py:190} INFO - [2024-11-21T22:56:48.055+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/transformation.py
+[2024-11-21T22:56:48.466+0000] {processor.py:925} INFO - DAG(s) 'dolar_data_silver' retrieved from /opt/airflow/dags/transformation.py
+[2024-11-21T22:56:48.483+0000] {logging_mixin.py:190} INFO - [2024-11-21T22:56:48.483+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-21T22:56:48.505+0000] {logging_mixin.py:190} INFO - [2024-11-21T22:56:48.504+0000] {dag.py:4180} INFO - Setting next_dagrun for dolar_data_silver to 2024-11-21 00:00:00+00:00, run_after=2024-11-22 00:00:00+00:00
+[2024-11-21T22:56:48.521+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/transformation.py took 0.476 seconds
+[2024-11-21T22:57:18.776+0000] {processor.py:186} INFO - Started process (PID=308) to work on /opt/airflow/dags/transformation.py
+[2024-11-21T22:57:18.777+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/transformation.py for tasks to queue
+[2024-11-21T22:57:18.780+0000] {logging_mixin.py:190} INFO - [2024-11-21T22:57:18.780+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/transformation.py
+[2024-11-21T22:57:19.173+0000] {processor.py:925} INFO - DAG(s) 'dolar_data_silver' retrieved from /opt/airflow/dags/transformation.py
+[2024-11-21T22:57:19.190+0000] {logging_mixin.py:190} INFO - [2024-11-21T22:57:19.189+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-21T22:57:19.212+0000] {logging_mixin.py:190} INFO - [2024-11-21T22:57:19.212+0000] {dag.py:4180} INFO - Setting next_dagrun for dolar_data_silver to 2024-11-21 00:00:00+00:00, run_after=2024-11-22 00:00:00+00:00
+[2024-11-21T22:57:19.229+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/transformation.py took 0.461 seconds
+[2024-11-21T22:57:49.424+0000] {processor.py:186} INFO - Started process (PID=316) to work on /opt/airflow/dags/transformation.py
+[2024-11-21T22:57:49.425+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/transformation.py for tasks to queue
+[2024-11-21T22:57:49.428+0000] {logging_mixin.py:190} INFO - [2024-11-21T22:57:49.427+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/transformation.py
+[2024-11-21T22:57:49.822+0000] {processor.py:925} INFO - DAG(s) 'dolar_data_silver' retrieved from /opt/airflow/dags/transformation.py
+[2024-11-21T22:57:49.839+0000] {logging_mixin.py:190} INFO - [2024-11-21T22:57:49.839+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-21T22:57:49.862+0000] {logging_mixin.py:190} INFO - [2024-11-21T22:57:49.862+0000] {dag.py:4180} INFO - Setting next_dagrun for dolar_data_silver to 2024-11-21 00:00:00+00:00, run_after=2024-11-22 00:00:00+00:00
+[2024-11-21T22:57:49.882+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/transformation.py took 0.464 seconds
+[2024-11-21T22:58:20.090+0000] {processor.py:186} INFO - Started process (PID=324) to work on /opt/airflow/dags/transformation.py
+[2024-11-21T22:58:20.092+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/transformation.py for tasks to queue
+[2024-11-21T22:58:20.094+0000] {logging_mixin.py:190} INFO - [2024-11-21T22:58:20.094+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/transformation.py
+[2024-11-21T22:58:20.493+0000] {processor.py:925} INFO - DAG(s) 'dolar_data_silver' retrieved from /opt/airflow/dags/transformation.py
+[2024-11-21T22:58:20.509+0000] {logging_mixin.py:190} INFO - [2024-11-21T22:58:20.509+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-21T22:58:20.531+0000] {logging_mixin.py:190} INFO - [2024-11-21T22:58:20.531+0000] {dag.py:4180} INFO - Setting next_dagrun for dolar_data_silver to 2024-11-21 00:00:00+00:00, run_after=2024-11-22 00:00:00+00:00
+[2024-11-21T22:58:20.550+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/transformation.py took 0.467 seconds
+[2024-11-21T22:58:50.803+0000] {processor.py:186} INFO - Started process (PID=332) to work on /opt/airflow/dags/transformation.py
+[2024-11-21T22:58:50.805+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/transformation.py for tasks to queue
+[2024-11-21T22:58:50.807+0000] {logging_mixin.py:190} INFO - [2024-11-21T22:58:50.807+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/transformation.py
+[2024-11-21T22:58:51.203+0000] {processor.py:925} INFO - DAG(s) 'dolar_data_silver' retrieved from /opt/airflow/dags/transformation.py
+[2024-11-21T22:58:51.220+0000] {logging_mixin.py:190} INFO - [2024-11-21T22:58:51.219+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-21T22:58:51.241+0000] {logging_mixin.py:190} INFO - [2024-11-21T22:58:51.241+0000] {dag.py:4180} INFO - Setting next_dagrun for dolar_data_silver to 2024-11-21 00:00:00+00:00, run_after=2024-11-22 00:00:00+00:00
+[2024-11-21T22:58:51.258+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/transformation.py took 0.464 seconds
+[2024-11-21T22:59:21.485+0000] {processor.py:186} INFO - Started process (PID=340) to work on /opt/airflow/dags/transformation.py
+[2024-11-21T22:59:21.486+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/transformation.py for tasks to queue
+[2024-11-21T22:59:21.488+0000] {logging_mixin.py:190} INFO - [2024-11-21T22:59:21.487+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/transformation.py
+[2024-11-21T22:59:21.892+0000] {processor.py:925} INFO - DAG(s) 'dolar_data_silver' retrieved from /opt/airflow/dags/transformation.py
+[2024-11-21T22:59:21.908+0000] {logging_mixin.py:190} INFO - [2024-11-21T22:59:21.908+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-21T22:59:21.931+0000] {logging_mixin.py:190} INFO - [2024-11-21T22:59:21.931+0000] {dag.py:4180} INFO - Setting next_dagrun for dolar_data_silver to 2024-11-21 00:00:00+00:00, run_after=2024-11-22 00:00:00+00:00
+[2024-11-21T22:59:21.949+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/transformation.py took 0.470 seconds
+[2024-11-21T22:59:52.219+0000] {processor.py:186} INFO - Started process (PID=348) to work on /opt/airflow/dags/transformation.py
+[2024-11-21T22:59:52.220+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/transformation.py for tasks to queue
+[2024-11-21T22:59:52.222+0000] {logging_mixin.py:190} INFO - [2024-11-21T22:59:52.222+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/transformation.py
+[2024-11-21T22:59:52.614+0000] {processor.py:925} INFO - DAG(s) 'dolar_data_silver' retrieved from /opt/airflow/dags/transformation.py
+[2024-11-21T22:59:52.631+0000] {logging_mixin.py:190} INFO - [2024-11-21T22:59:52.631+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-21T22:59:52.653+0000] {logging_mixin.py:190} INFO - [2024-11-21T22:59:52.653+0000] {dag.py:4180} INFO - Setting next_dagrun for dolar_data_silver to 2024-11-21 00:00:00+00:00, run_after=2024-11-22 00:00:00+00:00
+[2024-11-21T22:59:52.669+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/transformation.py took 0.456 seconds
+[2024-11-21T23:00:22.907+0000] {processor.py:186} INFO - Started process (PID=356) to work on /opt/airflow/dags/transformation.py
+[2024-11-21T23:00:22.908+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/transformation.py for tasks to queue
+[2024-11-21T23:00:22.911+0000] {logging_mixin.py:190} INFO - [2024-11-21T23:00:22.911+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/transformation.py
+[2024-11-21T23:00:23.315+0000] {processor.py:925} INFO - DAG(s) 'dolar_data_silver' retrieved from /opt/airflow/dags/transformation.py
+[2024-11-21T23:00:23.334+0000] {logging_mixin.py:190} INFO - [2024-11-21T23:00:23.334+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-21T23:00:23.363+0000] {logging_mixin.py:190} INFO - [2024-11-21T23:00:23.363+0000] {dag.py:4180} INFO - Setting next_dagrun for dolar_data_silver to 2024-11-21 00:00:00+00:00, run_after=2024-11-22 00:00:00+00:00
+[2024-11-21T23:00:23.382+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/transformation.py took 0.481 seconds
+[2024-11-21T23:00:53.667+0000] {processor.py:186} INFO - Started process (PID=364) to work on /opt/airflow/dags/transformation.py
+[2024-11-21T23:00:53.669+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/transformation.py for tasks to queue
+[2024-11-21T23:00:53.671+0000] {logging_mixin.py:190} INFO - [2024-11-21T23:00:53.671+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/transformation.py
+[2024-11-21T23:00:54.101+0000] {processor.py:925} INFO - DAG(s) 'dolar_data_silver' retrieved from /opt/airflow/dags/transformation.py
+[2024-11-21T23:00:54.117+0000] {logging_mixin.py:190} INFO - [2024-11-21T23:00:54.117+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-21T23:00:54.139+0000] {logging_mixin.py:190} INFO - [2024-11-21T23:00:54.139+0000] {dag.py:4180} INFO - Setting next_dagrun for dolar_data_silver to 2024-11-21 00:00:00+00:00, run_after=2024-11-22 00:00:00+00:00
+[2024-11-21T23:00:54.155+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/transformation.py took 0.494 seconds
+[2024-11-21T23:01:24.356+0000] {processor.py:186} INFO - Started process (PID=372) to work on /opt/airflow/dags/transformation.py
+[2024-11-21T23:01:24.357+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/transformation.py for tasks to queue
+[2024-11-21T23:01:24.359+0000] {logging_mixin.py:190} INFO - [2024-11-21T23:01:24.359+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/transformation.py
+[2024-11-21T23:01:24.757+0000] {processor.py:925} INFO - DAG(s) 'dolar_data_silver' retrieved from /opt/airflow/dags/transformation.py
+[2024-11-21T23:01:24.773+0000] {logging_mixin.py:190} INFO - [2024-11-21T23:01:24.773+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-21T23:01:24.795+0000] {logging_mixin.py:190} INFO - [2024-11-21T23:01:24.794+0000] {dag.py:4180} INFO - Setting next_dagrun for dolar_data_silver to 2024-11-21 00:00:00+00:00, run_after=2024-11-22 00:00:00+00:00
+[2024-11-21T23:01:24.811+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/transformation.py took 0.461 seconds
+[2024-11-21T23:01:55.020+0000] {processor.py:186} INFO - Started process (PID=380) to work on /opt/airflow/dags/transformation.py
+[2024-11-21T23:01:55.021+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/transformation.py for tasks to queue
+[2024-11-21T23:01:55.023+0000] {logging_mixin.py:190} INFO - [2024-11-21T23:01:55.023+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/transformation.py
+[2024-11-21T23:01:55.422+0000] {processor.py:925} INFO - DAG(s) 'dolar_data_silver' retrieved from /opt/airflow/dags/transformation.py
+[2024-11-21T23:01:55.439+0000] {logging_mixin.py:190} INFO - [2024-11-21T23:01:55.438+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-21T23:01:55.460+0000] {logging_mixin.py:190} INFO - [2024-11-21T23:01:55.459+0000] {dag.py:4180} INFO - Setting next_dagrun for dolar_data_silver to 2024-11-21 00:00:00+00:00, run_after=2024-11-22 00:00:00+00:00
+[2024-11-21T23:01:55.477+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/transformation.py took 0.463 seconds
+[2024-11-21T23:02:25.726+0000] {processor.py:186} INFO - Started process (PID=388) to work on /opt/airflow/dags/transformation.py
+[2024-11-21T23:02:25.727+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/transformation.py for tasks to queue
+[2024-11-21T23:02:25.730+0000] {logging_mixin.py:190} INFO - [2024-11-21T23:02:25.730+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/transformation.py
+[2024-11-21T23:02:26.143+0000] {processor.py:925} INFO - DAG(s) 'dolar_data_silver' retrieved from /opt/airflow/dags/transformation.py
+[2024-11-21T23:02:26.159+0000] {logging_mixin.py:190} INFO - [2024-11-21T23:02:26.159+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-21T23:02:26.184+0000] {logging_mixin.py:190} INFO - [2024-11-21T23:02:26.184+0000] {dag.py:4180} INFO - Setting next_dagrun for dolar_data_silver to 2024-11-21 00:00:00+00:00, run_after=2024-11-22 00:00:00+00:00
+[2024-11-21T23:02:26.200+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/transformation.py took 0.480 seconds
+[2024-11-21T23:02:56.442+0000] {processor.py:186} INFO - Started process (PID=396) to work on /opt/airflow/dags/transformation.py
+[2024-11-21T23:02:56.443+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/transformation.py for tasks to queue
+[2024-11-21T23:02:56.445+0000] {logging_mixin.py:190} INFO - [2024-11-21T23:02:56.444+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/transformation.py
+[2024-11-21T23:02:56.838+0000] {processor.py:925} INFO - DAG(s) 'dolar_data_silver' retrieved from /opt/airflow/dags/transformation.py
+[2024-11-21T23:02:56.854+0000] {logging_mixin.py:190} INFO - [2024-11-21T23:02:56.854+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-21T23:02:56.876+0000] {logging_mixin.py:190} INFO - [2024-11-21T23:02:56.876+0000] {dag.py:4180} INFO - Setting next_dagrun for dolar_data_silver to 2024-11-21 00:00:00+00:00, run_after=2024-11-22 00:00:00+00:00
+[2024-11-21T23:02:56.893+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/transformation.py took 0.457 seconds
+[2024-11-21T23:03:27.124+0000] {processor.py:186} INFO - Started process (PID=404) to work on /opt/airflow/dags/transformation.py
+[2024-11-21T23:03:27.124+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/transformation.py for tasks to queue
+[2024-11-21T23:03:27.127+0000] {logging_mixin.py:190} INFO - [2024-11-21T23:03:27.126+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/transformation.py
+[2024-11-21T23:03:27.517+0000] {processor.py:925} INFO - DAG(s) 'dolar_data_silver' retrieved from /opt/airflow/dags/transformation.py
+[2024-11-21T23:03:27.533+0000] {logging_mixin.py:190} INFO - [2024-11-21T23:03:27.533+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-21T23:03:27.556+0000] {logging_mixin.py:190} INFO - [2024-11-21T23:03:27.556+0000] {dag.py:4180} INFO - Setting next_dagrun for dolar_data_silver to 2024-11-21 00:00:00+00:00, run_after=2024-11-22 00:00:00+00:00
+[2024-11-21T23:03:27.573+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/transformation.py took 0.458 seconds
+[2024-11-21T23:03:57.846+0000] {processor.py:186} INFO - Started process (PID=412) to work on /opt/airflow/dags/transformation.py
+[2024-11-21T23:03:57.847+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/transformation.py for tasks to queue
+[2024-11-21T23:03:57.849+0000] {logging_mixin.py:190} INFO - [2024-11-21T23:03:57.849+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/transformation.py
+[2024-11-21T23:03:58.239+0000] {processor.py:925} INFO - DAG(s) 'dolar_data_silver' retrieved from /opt/airflow/dags/transformation.py
+[2024-11-21T23:03:58.255+0000] {logging_mixin.py:190} INFO - [2024-11-21T23:03:58.255+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-21T23:03:58.277+0000] {logging_mixin.py:190} INFO - [2024-11-21T23:03:58.276+0000] {dag.py:4180} INFO - Setting next_dagrun for dolar_data_silver to 2024-11-21 00:00:00+00:00, run_after=2024-11-22 00:00:00+00:00
+[2024-11-21T23:03:58.293+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/transformation.py took 0.454 seconds
+[2024-11-21T23:04:28.476+0000] {processor.py:186} INFO - Started process (PID=420) to work on /opt/airflow/dags/transformation.py
+[2024-11-21T23:04:28.477+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/transformation.py for tasks to queue
+[2024-11-21T23:04:28.480+0000] {logging_mixin.py:190} INFO - [2024-11-21T23:04:28.479+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/transformation.py
+[2024-11-21T23:04:28.925+0000] {processor.py:925} INFO - DAG(s) 'dolar_data_silver' retrieved from /opt/airflow/dags/transformation.py
+[2024-11-21T23:04:28.944+0000] {logging_mixin.py:190} INFO - [2024-11-21T23:04:28.944+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-21T23:04:28.969+0000] {logging_mixin.py:190} INFO - [2024-11-21T23:04:28.968+0000] {dag.py:4180} INFO - Setting next_dagrun for dolar_data_silver to 2024-11-21 00:00:00+00:00, run_after=2024-11-22 00:00:00+00:00
+[2024-11-21T23:04:28.988+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/transformation.py took 0.518 seconds
+[2024-11-21T23:04:59.176+0000] {processor.py:186} INFO - Started process (PID=428) to work on /opt/airflow/dags/transformation.py
+[2024-11-21T23:04:59.177+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/transformation.py for tasks to queue
+[2024-11-21T23:04:59.179+0000] {logging_mixin.py:190} INFO - [2024-11-21T23:04:59.179+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/transformation.py
+[2024-11-21T23:04:59.579+0000] {processor.py:925} INFO - DAG(s) 'dolar_data_silver' retrieved from /opt/airflow/dags/transformation.py
+[2024-11-21T23:04:59.597+0000] {logging_mixin.py:190} INFO - [2024-11-21T23:04:59.596+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-21T23:04:59.620+0000] {logging_mixin.py:190} INFO - [2024-11-21T23:04:59.619+0000] {dag.py:4180} INFO - Setting next_dagrun for dolar_data_silver to 2024-11-21 00:00:00+00:00, run_after=2024-11-22 00:00:00+00:00
+[2024-11-21T23:04:59.639+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/transformation.py took 0.469 seconds
+[2024-11-21T23:05:29.872+0000] {processor.py:186} INFO - Started process (PID=436) to work on /opt/airflow/dags/transformation.py
+[2024-11-21T23:05:29.872+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/transformation.py for tasks to queue
+[2024-11-21T23:05:29.876+0000] {logging_mixin.py:190} INFO - [2024-11-21T23:05:29.875+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/transformation.py
+[2024-11-21T23:05:30.261+0000] {processor.py:925} INFO - DAG(s) 'dolar_data_silver' retrieved from /opt/airflow/dags/transformation.py
+[2024-11-21T23:05:30.278+0000] {logging_mixin.py:190} INFO - [2024-11-21T23:05:30.277+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-21T23:05:30.300+0000] {logging_mixin.py:190} INFO - [2024-11-21T23:05:30.300+0000] {dag.py:4180} INFO - Setting next_dagrun for dolar_data_silver to 2024-11-21 00:00:00+00:00, run_after=2024-11-22 00:00:00+00:00
+[2024-11-21T23:05:30.317+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/transformation.py took 0.453 seconds
+[2024-11-21T23:06:00.518+0000] {processor.py:186} INFO - Started process (PID=444) to work on /opt/airflow/dags/transformation.py
+[2024-11-21T23:06:00.519+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/transformation.py for tasks to queue
+[2024-11-21T23:06:00.522+0000] {logging_mixin.py:190} INFO - [2024-11-21T23:06:00.521+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/transformation.py
+[2024-11-21T23:06:00.942+0000] {processor.py:925} INFO - DAG(s) 'dolar_data_silver' retrieved from /opt/airflow/dags/transformation.py
+[2024-11-21T23:06:00.960+0000] {logging_mixin.py:190} INFO - [2024-11-21T23:06:00.959+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-21T23:06:00.982+0000] {logging_mixin.py:190} INFO - [2024-11-21T23:06:00.981+0000] {dag.py:4180} INFO - Setting next_dagrun for dolar_data_silver to 2024-11-21 00:00:00+00:00, run_after=2024-11-22 00:00:00+00:00
+[2024-11-21T23:06:00.999+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/transformation.py took 0.486 seconds
+[2024-11-21T23:06:31.243+0000] {processor.py:186} INFO - Started process (PID=452) to work on /opt/airflow/dags/transformation.py
+[2024-11-21T23:06:31.244+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/transformation.py for tasks to queue
+[2024-11-21T23:06:31.246+0000] {logging_mixin.py:190} INFO - [2024-11-21T23:06:31.246+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/transformation.py
+[2024-11-21T23:06:31.642+0000] {processor.py:925} INFO - DAG(s) 'dolar_data_silver' retrieved from /opt/airflow/dags/transformation.py
+[2024-11-21T23:06:31.659+0000] {logging_mixin.py:190} INFO - [2024-11-21T23:06:31.658+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-21T23:06:31.681+0000] {logging_mixin.py:190} INFO - [2024-11-21T23:06:31.680+0000] {dag.py:4180} INFO - Setting next_dagrun for dolar_data_silver to 2024-11-21 00:00:00+00:00, run_after=2024-11-22 00:00:00+00:00
+[2024-11-21T23:06:31.697+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/transformation.py took 0.460 seconds
+[2024-11-21T23:07:01.885+0000] {processor.py:186} INFO - Started process (PID=460) to work on /opt/airflow/dags/transformation.py
+[2024-11-21T23:07:01.886+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/transformation.py for tasks to queue
+[2024-11-21T23:07:01.888+0000] {logging_mixin.py:190} INFO - [2024-11-21T23:07:01.887+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/transformation.py
+[2024-11-21T23:07:02.304+0000] {processor.py:925} INFO - DAG(s) 'dolar_data_silver' retrieved from /opt/airflow/dags/transformation.py
+[2024-11-21T23:07:02.323+0000] {logging_mixin.py:190} INFO - [2024-11-21T23:07:02.323+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-21T23:07:02.354+0000] {logging_mixin.py:190} INFO - [2024-11-21T23:07:02.354+0000] {dag.py:4180} INFO - Setting next_dagrun for dolar_data_silver to 2024-11-21 00:00:00+00:00, run_after=2024-11-22 00:00:00+00:00
+[2024-11-21T23:07:02.373+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/transformation.py took 0.494 seconds
+[2024-11-21T23:07:32.640+0000] {processor.py:186} INFO - Started process (PID=468) to work on /opt/airflow/dags/transformation.py
+[2024-11-21T23:07:32.641+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/transformation.py for tasks to queue
+[2024-11-21T23:07:32.644+0000] {logging_mixin.py:190} INFO - [2024-11-21T23:07:32.643+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/transformation.py
+[2024-11-21T23:07:33.041+0000] {processor.py:925} INFO - DAG(s) 'dolar_data_silver' retrieved from /opt/airflow/dags/transformation.py
+[2024-11-21T23:07:33.058+0000] {logging_mixin.py:190} INFO - [2024-11-21T23:07:33.057+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-21T23:07:33.079+0000] {logging_mixin.py:190} INFO - [2024-11-21T23:07:33.079+0000] {dag.py:4180} INFO - Setting next_dagrun for dolar_data_silver to 2024-11-21 00:00:00+00:00, run_after=2024-11-22 00:00:00+00:00
+[2024-11-21T23:07:33.098+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/transformation.py took 0.464 seconds
+[2024-11-21T23:08:03.357+0000] {processor.py:186} INFO - Started process (PID=476) to work on /opt/airflow/dags/transformation.py
+[2024-11-21T23:08:03.358+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/transformation.py for tasks to queue
+[2024-11-21T23:08:03.361+0000] {logging_mixin.py:190} INFO - [2024-11-21T23:08:03.361+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/transformation.py
+[2024-11-21T23:08:03.778+0000] {processor.py:925} INFO - DAG(s) 'dolar_data_silver' retrieved from /opt/airflow/dags/transformation.py
+[2024-11-21T23:08:03.800+0000] {logging_mixin.py:190} INFO - [2024-11-21T23:08:03.800+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-21T23:08:03.822+0000] {logging_mixin.py:190} INFO - [2024-11-21T23:08:03.822+0000] {dag.py:4180} INFO - Setting next_dagrun for dolar_data_silver to 2024-11-21 00:00:00+00:00, run_after=2024-11-22 00:00:00+00:00
+[2024-11-21T23:08:03.838+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/transformation.py took 0.488 seconds
+[2024-11-21T23:08:34.026+0000] {processor.py:186} INFO - Started process (PID=484) to work on /opt/airflow/dags/transformation.py
+[2024-11-21T23:08:34.026+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/transformation.py for tasks to queue
+[2024-11-21T23:08:34.029+0000] {logging_mixin.py:190} INFO - [2024-11-21T23:08:34.028+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/transformation.py
+[2024-11-21T23:08:34.503+0000] {processor.py:925} INFO - DAG(s) 'dolar_data_silver' retrieved from /opt/airflow/dags/transformation.py
+[2024-11-21T23:08:34.519+0000] {logging_mixin.py:190} INFO - [2024-11-21T23:08:34.519+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-21T23:08:34.545+0000] {logging_mixin.py:190} INFO - [2024-11-21T23:08:34.544+0000] {dag.py:4180} INFO - Setting next_dagrun for dolar_data_silver to 2024-11-21 00:00:00+00:00, run_after=2024-11-22 00:00:00+00:00
+[2024-11-21T23:08:34.561+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/transformation.py took 0.541 seconds
+[2024-11-21T23:09:04.763+0000] {processor.py:186} INFO - Started process (PID=492) to work on /opt/airflow/dags/transformation.py
+[2024-11-21T23:09:04.765+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/transformation.py for tasks to queue
+[2024-11-21T23:09:04.767+0000] {logging_mixin.py:190} INFO - [2024-11-21T23:09:04.766+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/transformation.py
+[2024-11-21T23:09:05.190+0000] {processor.py:925} INFO - DAG(s) 'dolar_data_silver' retrieved from /opt/airflow/dags/transformation.py
+[2024-11-21T23:09:05.206+0000] {logging_mixin.py:190} INFO - [2024-11-21T23:09:05.206+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-21T23:09:05.227+0000] {logging_mixin.py:190} INFO - [2024-11-21T23:09:05.227+0000] {dag.py:4180} INFO - Setting next_dagrun for dolar_data_silver to 2024-11-21 00:00:00+00:00, run_after=2024-11-22 00:00:00+00:00
+[2024-11-21T23:09:05.243+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/transformation.py took 0.485 seconds
+[2024-11-21T23:09:35.479+0000] {processor.py:186} INFO - Started process (PID=500) to work on /opt/airflow/dags/transformation.py
+[2024-11-21T23:09:35.480+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/transformation.py for tasks to queue
+[2024-11-21T23:09:35.483+0000] {logging_mixin.py:190} INFO - [2024-11-21T23:09:35.483+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/transformation.py
+[2024-11-21T23:09:36.008+0000] {processor.py:925} INFO - DAG(s) 'dolar_data_silver' retrieved from /opt/airflow/dags/transformation.py
+[2024-11-21T23:09:36.028+0000] {logging_mixin.py:190} INFO - [2024-11-21T23:09:36.027+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-21T23:09:36.058+0000] {logging_mixin.py:190} INFO - [2024-11-21T23:09:36.058+0000] {dag.py:4180} INFO - Setting next_dagrun for dolar_data_silver to 2024-11-21 00:00:00+00:00, run_after=2024-11-22 00:00:00+00:00
+[2024-11-21T23:09:36.075+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/transformation.py took 0.605 seconds
+[2024-11-21T23:10:06.317+0000] {processor.py:186} INFO - Started process (PID=508) to work on /opt/airflow/dags/transformation.py
+[2024-11-21T23:10:06.318+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/transformation.py for tasks to queue
+[2024-11-21T23:10:06.321+0000] {logging_mixin.py:190} INFO - [2024-11-21T23:10:06.320+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/transformation.py
+[2024-11-21T23:10:06.730+0000] {processor.py:925} INFO - DAG(s) 'dolar_data_silver' retrieved from /opt/airflow/dags/transformation.py
+[2024-11-21T23:10:06.746+0000] {logging_mixin.py:190} INFO - [2024-11-21T23:10:06.746+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-21T23:10:06.767+0000] {logging_mixin.py:190} INFO - [2024-11-21T23:10:06.767+0000] {dag.py:4180} INFO - Setting next_dagrun for dolar_data_silver to 2024-11-21 00:00:00+00:00, run_after=2024-11-22 00:00:00+00:00
+[2024-11-21T23:10:06.786+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/transformation.py took 0.475 seconds
+[2024-11-21T23:10:36.994+0000] {processor.py:186} INFO - Started process (PID=516) to work on /opt/airflow/dags/transformation.py
+[2024-11-21T23:10:36.995+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/transformation.py for tasks to queue
+[2024-11-21T23:10:36.998+0000] {logging_mixin.py:190} INFO - [2024-11-21T23:10:36.998+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/transformation.py
+[2024-11-21T23:10:37.387+0000] {processor.py:925} INFO - DAG(s) 'dolar_data_silver' retrieved from /opt/airflow/dags/transformation.py
+[2024-11-21T23:10:37.404+0000] {logging_mixin.py:190} INFO - [2024-11-21T23:10:37.404+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-21T23:10:37.427+0000] {logging_mixin.py:190} INFO - [2024-11-21T23:10:37.426+0000] {dag.py:4180} INFO - Setting next_dagrun for dolar_data_silver to 2024-11-21 00:00:00+00:00, run_after=2024-11-22 00:00:00+00:00
+[2024-11-21T23:10:37.443+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/transformation.py took 0.454 seconds
+[2024-11-21T23:11:07.661+0000] {processor.py:186} INFO - Started process (PID=524) to work on /opt/airflow/dags/transformation.py
+[2024-11-21T23:11:07.662+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/transformation.py for tasks to queue
+[2024-11-21T23:11:07.664+0000] {logging_mixin.py:190} INFO - [2024-11-21T23:11:07.664+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/transformation.py
+[2024-11-21T23:11:08.051+0000] {processor.py:925} INFO - DAG(s) 'dolar_data_silver' retrieved from /opt/airflow/dags/transformation.py
+[2024-11-21T23:11:08.067+0000] {logging_mixin.py:190} INFO - [2024-11-21T23:11:08.067+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-21T23:11:08.088+0000] {logging_mixin.py:190} INFO - [2024-11-21T23:11:08.088+0000] {dag.py:4180} INFO - Setting next_dagrun for dolar_data_silver to 2024-11-21 00:00:00+00:00, run_after=2024-11-22 00:00:00+00:00
+[2024-11-21T23:11:08.104+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/transformation.py took 0.449 seconds
+[2024-11-21T23:11:38.332+0000] {processor.py:186} INFO - Started process (PID=532) to work on /opt/airflow/dags/transformation.py
+[2024-11-21T23:11:38.333+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/transformation.py for tasks to queue
+[2024-11-21T23:11:38.335+0000] {logging_mixin.py:190} INFO - [2024-11-21T23:11:38.335+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/transformation.py
+[2024-11-21T23:11:38.729+0000] {processor.py:925} INFO - DAG(s) 'dolar_data_silver' retrieved from /opt/airflow/dags/transformation.py
+[2024-11-21T23:11:38.745+0000] {logging_mixin.py:190} INFO - [2024-11-21T23:11:38.745+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-21T23:11:38.766+0000] {logging_mixin.py:190} INFO - [2024-11-21T23:11:38.766+0000] {dag.py:4180} INFO - Setting next_dagrun for dolar_data_silver to 2024-11-21 00:00:00+00:00, run_after=2024-11-22 00:00:00+00:00
+[2024-11-21T23:11:38.786+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/transformation.py took 0.461 seconds
+[2024-11-21T23:12:09.006+0000] {processor.py:186} INFO - Started process (PID=540) to work on /opt/airflow/dags/transformation.py
+[2024-11-21T23:12:09.007+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/transformation.py for tasks to queue
+[2024-11-21T23:12:09.009+0000] {logging_mixin.py:190} INFO - [2024-11-21T23:12:09.009+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/transformation.py
+[2024-11-21T23:12:09.400+0000] {processor.py:925} INFO - DAG(s) 'dolar_data_silver' retrieved from /opt/airflow/dags/transformation.py
+[2024-11-21T23:12:09.416+0000] {logging_mixin.py:190} INFO - [2024-11-21T23:12:09.416+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-21T23:12:09.436+0000] {logging_mixin.py:190} INFO - [2024-11-21T23:12:09.436+0000] {dag.py:4180} INFO - Setting next_dagrun for dolar_data_silver to 2024-11-21 00:00:00+00:00, run_after=2024-11-22 00:00:00+00:00
+[2024-11-21T23:12:09.453+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/transformation.py took 0.456 seconds
+[2024-11-21T23:12:39.655+0000] {processor.py:186} INFO - Started process (PID=548) to work on /opt/airflow/dags/transformation.py
+[2024-11-21T23:12:39.656+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/transformation.py for tasks to queue
+[2024-11-21T23:12:39.658+0000] {logging_mixin.py:190} INFO - [2024-11-21T23:12:39.658+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/transformation.py
+[2024-11-21T23:12:40.053+0000] {processor.py:925} INFO - DAG(s) 'dolar_data_silver' retrieved from /opt/airflow/dags/transformation.py
+[2024-11-21T23:12:40.069+0000] {logging_mixin.py:190} INFO - [2024-11-21T23:12:40.069+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-21T23:12:40.090+0000] {logging_mixin.py:190} INFO - [2024-11-21T23:12:40.090+0000] {dag.py:4180} INFO - Setting next_dagrun for dolar_data_silver to 2024-11-21 00:00:00+00:00, run_after=2024-11-22 00:00:00+00:00
+[2024-11-21T23:12:40.106+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/transformation.py took 0.457 seconds

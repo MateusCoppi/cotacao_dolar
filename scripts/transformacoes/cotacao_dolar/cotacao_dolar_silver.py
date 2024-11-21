@@ -4,8 +4,7 @@ from pyspark.sql import SparkSession
 import ast
 
 # Caminho para importacao da classe do Minio
-sys.path.append(os.path.abspath('/opt/airflow/scripts')) # path container
-# sys.path.append(os.path.abspath('/home/mateus_coppi/Documents/apache-airflow/scripts')) ## path local
+sys.path.append(os.path.abspath('/opt/airflow/scripts')) 
 from minio_connection import MinionConnection
 
 os.environ["JAVA_HOME"] = "/usr/lib/jvm/java-1.17.0-openjdk-amd64" # path java container
@@ -33,26 +32,33 @@ def dicts_to_list(dict):
 
 def main():
 
-    minio_connect = MinionConnection(access_key="myminioadmin", secret_key="minio-secret-key-change-me", host_name="minio:9000")
+    minio_connect = MinionConnection(access_key="mateus1234", secret_key="cofre1234", host_name="minio:9000")
     minio_client = minio_connect.conexao_minio()
 
     # Pegando os dados das cotacoes do bucket_bronze
     data_bucket_json = minio_connect.get_json_objects_from_bucket(bucket='dolar-bucket-bronze')
 
-    # findspark.init()
-
     spark = SparkSession \
         .builder \
         .appName("spark-cotacao-dolar-siver-minio") \
-        .master("spark://spark:7077") \
-        .config("fs.s3a.access.key", "myminioadmin") \
-        .config("fs.s3a.secret.key", "minio-secret-key-change-me") \
+        .master("local[4]") \
+        .config("spark.driver.memory", "4g") \
+        .config("spark.executor.memory", "4g") \
+        .config("fs.s3a.access.key", "mateus1234") \
+        .config("fs.s3a.secret.key", "cofre1234") \
         .config("fs.s3a.endpoint", "http://minio:9000") \
         .config("fs.s3a.path.style.access", "true") \
         .config("fs.s3a.connection.ssl.enabled", "false") \
         .config('spark.jars.packages','org.apache.hadoop:hadoop-aws:3.3.4,org.apache.hadoop:hadoop-common:3.3.4') \
         .getOrCreate()
     
+        # .config("fs.s3a.path.style.access", "true") \
+        # .config("fs.s3a.connection.ssl.enabled", "false") \
+        # .config("spark.jars.packages", "org.apache.hadoop:hadoop-aws:3.3.4,com.amazonaws:aws-java-sdk-bundle:1.12.524") \
+        # .config("spark.hadoop.fs.s3a.impl", "org.apache.hadoop.fs.s3a.S3AFileSystem") \
+        # .getOrCreate()
+
+        # .config('spark.jars.packages', '/opt/airflow/spark/spark-3.5.3-bin-hadoop3/jars/hadoop-aws-3.3.4, /opt/airflow/spark/spark-3.5.3-bin-hadoop3/jars/hadoop-common-3.3.4') \    
 
     bucket = "s3a://silver/cotacao_dolar_parquet"
     dados_formatados = dicts_to_list(str_to_dict(data_bucket_json))
