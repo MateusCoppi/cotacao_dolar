@@ -50,11 +50,12 @@ def main():
         .config("fs.s3a.path.style.access", "true") \
         .config("fs.s3a.connection.ssl.enabled", "false") \
         .config('spark.jars.packages','org.apache.hadoop:hadoop-aws:3.3.4,org.apache.hadoop:hadoop-common:3.3.4') \
+        .config("spark.jars.packages", "org.apache.hadoop:hadoop-aws:3.3.4,com.amazonaws:aws-java-sdk-bundle:1.12.524") \
         .getOrCreate()
     
         # .config("fs.s3a.path.style.access", "true") \
         # .config("fs.s3a.connection.ssl.enabled", "false") \
-        # .config("spark.jars.packages", "org.apache.hadoop:hadoop-aws:3.3.4,com.amazonaws:aws-java-sdk-bundle:1.12.524") \
+        # 
         # .config("spark.hadoop.fs.s3a.impl", "org.apache.hadoop.fs.s3a.S3AFileSystem") \
         # .getOrCreate()
 
