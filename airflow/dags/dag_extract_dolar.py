@@ -17,7 +17,7 @@ import cotacao_dolar_silver
 # importa os dados json para o bucket_bronze
 def to_bronze(arquivo, data_interval_start, **kwargs):
     data = pendulum.parse(data_interval_start).strftime("%m-%d-%Y")
-    minio_connect = MinionConnection(access_key="mateus1234", secret_key="cofre1234", host_name="minio:9000")
+    minio_connect = MinionConnection(access_key="user", secret_key="password", host_name="minio:9000")
     minio_connect.lista_buckets()
     minio_connect.import_json_to_bucket(object_name=f"cotacao{data}", bucket_name="dolar-bucket-bronze", file=arquivo)
     sleep(5)
