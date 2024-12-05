@@ -32,7 +32,7 @@ def dicts_to_list(dict):
 
 def main():
 
-    minio_connect = MinionConnection(access_key="mateus1234", secret_key="cofre1234", host_name="minio:9000")
+    minio_connect = MinionConnection(access_key="minioadmin", secret_key="minioadmin", host_name="minio:9000")
     minio_client = minio_connect.conexao_minio()
 
     # Pegando os dados das cotacoes do bucket_bronze
